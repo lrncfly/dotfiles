@@ -105,9 +105,19 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+
+if [ -f ~/.bash_aliases_local ]; then
+    . ~/.bash_aliases_local
+fi
+
 # Exports.
 if [ -f ~/.bash_exports ]; then
     . ~/.bash_exports
+fi
+
+
+if [ -f ~/.bash_exports_local ]; then
+    . ~/.bash_exports_local
 fi
 
 # enable programmable completion features (you don't need to enable

@@ -1,3 +1,6 @@
+# docker
+export DOCKER_HOST=tcp://localhost:2375
+
 # x11
 export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
