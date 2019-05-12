@@ -135,3 +135,8 @@ fi
 # fuzzy file
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+
+#[[ $- != *i* ]] && return
+
+# PS1
+PS1='[\u@\h \W]\$ '
