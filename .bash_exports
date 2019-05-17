@@ -1,7 +1,22 @@
+# editor
+export EDITOR=/usr/bin/vim
+export VISUAL=/usr/bin/vim
+
+# virtualenv
+export WORKON_HOME=~/.virtualenvs
+export VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+export _VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv
+export VIRTUALENVWRAPPER_HOOK_DIR=~/.virtualenvs
+export VIRTUALENVWRAPPER_PROJECT_FILENAME=.project
+source $VIRTUALENVWRAPPER_SCRIPT
+
 # docker
 export DOCKER_HOST=tcp://localhost:2375
 
 # x11
 export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
+dbus-launch --exit-with-x11
+export GDK_SCALE=0.5
+export GDK_DPI_SCALE=2
 
