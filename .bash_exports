@@ -17,6 +17,5 @@ export DOCKER_HOST=tcp://localhost:2375
 export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 dbus-launch --exit-with-x11
-export GDK_SCALE=0.5
-export GDK_DPI_SCALE=2
-
+export GDK_SCALE=2
+export GDK_DPI_SCALE=0.5
